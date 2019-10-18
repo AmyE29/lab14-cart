@@ -40,14 +40,16 @@ function handleSubmit(event) {
 
 }
 
-// TODO: Add the selected item and quantity to the cart
-function addSelectedItemToCart(event) {
-  event.addEventListener('click', cart.addSelectedItemToCart)(handleSubmit);
-  event.addEventListener('click') 
+// TDone?: Add the selected item and quantity to the cart
+function addSelectedItemToCart() {
+  item.addEventListener('submit', cart.addSelecteditemsToCart);
+  quantity.addEventListener('submit', cart.addquantityToCart);
+  
   // TODO: suss out the item picked from the select list
   // TODO: get the quantity
   // TODO: using those, add one item to the Cart
 }
+
 
 // TODO: Update the cart count in the header nav with the number of items in the Cart
 function updateCounter() {}
